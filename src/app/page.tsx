@@ -45,7 +45,7 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-8 py-16">
         <section className="text-center mb-20">
           <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent animate-pulse">
-            Antiname
+            Digital Safety
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             The next-generation platform for digital identity and privacy protection
