@@ -1,6 +1,3 @@
-'use client'
-
-import React from 'react'
 import { Shield, Zap, Users, Settings, Globe, Lock } from 'lucide-react'
 import Header from '@/components/Header'
 import DiscordButton from '@/components/DiscordButton'
@@ -62,9 +59,9 @@ export default function Home() {
             Features
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {features.map((feature, index) => (
+            {features.map((feature) => (
               <FeatureCard
-                key={index}
+                key={feature.title}
                 icon={feature.icon}
                 title={feature.title}
                 description={feature.description}
